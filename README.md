@@ -4,12 +4,12 @@ This repository captures an Indian equity research project built around market d
 
 ## Project Overview
 
-The project brings together:
+This project brings together:
 - market data ingestion from Indian exchanges (NSE/BSE)
 - transaction and market cap delta processing
 - exploratory and validation analytics in notebooks
 - SQL-driven anomaly detection and trend analysis
-- dashboard artifacts for investment opportunity, supertrend signals, and bulk deal performance
+- dashboard artifacts for investment opportunity and bulk deal performance analysis
 
 ## Architecture
 
@@ -30,25 +30,21 @@ The included diagrams (`docs/pipeline_overview.png`, `docs/warehouse_schema.png`
 
 ## Dashboard Insights
 
-The dashboard artifacts in `docs/dashboards/` capture the key analytical outcomes of this project and present them in a business-friendly format.
+The dashboard artifacts in `docs/dashboards/` capture the project’s analytical outcomes in a concise, business-friendly format.
 
 ### Bulk deal investor performance dashboard
 
 ![Bulk deal investor performance dashboard](docs/dashboards/bulk_deal_investor_performance_dashboard.jpeg)
 
-This dashboard highlights investor participation, bulk deal activity, and performance patterns across major securities and sectors. It is useful for monitoring institutional flow, evaluating deal quality, and identifying notable trading signals.
+This dashboard highlights investor participation, bulk deal activity, and performance patterns across major securities and sectors. It is particularly useful for monitoring institutional flow, assessing deal quality, and identifying notable trading signals.
 
 ### Investment opportunity dashboard
 
 ![Investment opportunity dashboard](docs/dashboards/investment_opporunity_dashboard.png)
 
-This dashboard surfaces potential investment opportunities by combining market context, sector trends, and relative strength indicators. It offers a concise view of candidate stocks and themes for deeper research and portfolio evaluation.
+This dashboard surfaces potential investment opportunities by combining market context, sector trends, and relative strength indicators. It provides a clear view of promising candidates for deeper research and portfolio evaluation.
 
-- `supertrend_dashboard.jpeg`
-  - tracks technical trend signals, including supertrend-style momentum indicators and breakout points.
-  - helps identify likely trend continuation or reversal opportunities in equity price action.
-
-These dashboards reflect the project’s value proposition: using exchange and market data to generate actionable research and portfolio insights.
+Together, these dashboards reflect the project’s value proposition: using exchange and market data to generate actionable research and portfolio insights.
 
 ## Project Structure
 
