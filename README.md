@@ -30,15 +30,19 @@ The included diagrams (`docs/pipeline_overview.png`, `docs/warehouse_schema.png`
 
 ## Dashboard Insights
 
-The dashboard artifacts in `docs/dashboards/` capture the key analytical outcomes of this project:
+The dashboard artifacts in `docs/dashboards/` capture the key analytical outcomes of this project and present them in a business-friendly format.
 
-- `bulk_deal_investor_performance_dashboard.jpeg`
-  - highlights investor performance and bulk deal trends, showing which sectors and securities are most active in large-volume transactions.
-  - supports monitoring of deal flow quality, participant behavior, and performance signals for bulk trades.
+### Bulk deal investor performance dashboard
 
-- `investment_opporunity_dashboard.png`
-  - surfaces investment opportunities across sectors and industries, using market metrics and relative strength indicators.
-  - provides a business-friendly view of potential stock candidates based on recent trade activity and broader market context.
+![Bulk deal investor performance dashboard](docs/dashboards/bulk_deal_investor_performance_dashboard.jpeg)
+
+This dashboard highlights investor participation, bulk deal activity, and performance patterns across major securities and sectors. It is useful for monitoring institutional flow, evaluating deal quality, and identifying notable trading signals.
+
+### Investment opportunity dashboard
+
+![Investment opportunity dashboard](docs/dashboards/investment_opporunity_dashboard.png)
+
+This dashboard surfaces potential investment opportunities by combining market context, sector trends, and relative strength indicators. It offers a concise view of candidate stocks and themes for deeper research and portfolio evaluation.
 
 - `supertrend_dashboard.jpeg`
   - tracks technical trend signals, including supertrend-style momentum indicators and breakout points.
